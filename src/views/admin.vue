@@ -22,7 +22,7 @@ async function registrarCuento(cuento) {
         console.log(error)
     }
 
-    qrText.value = `${url}/${data[0].id}`
+    qrText.value = `https://cuentos-nonos.vercel.app/${data[0].id}`
 }
 </script>
 
